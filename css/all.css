@@ -115,7 +115,7 @@ body {
 
 .header {
   height: 380px;
-  background: url(/img/Hero.png);
+  background: url(../img/Hero.png);
   flex-direction: column;
   align-items: center;
 }
@@ -131,7 +131,7 @@ body {
   font-size: 18px;
   border-radius: 3px;
   border: 3px solid white;
-  background: url(./img/icons_down.png) no-repeat 99% center rgba(255, 255, 255, 0.7);
+  background: url(../img/icons_down.png) no-repeat 99% center rgba(255, 255, 255, 0.7);
 }
 
 .main {
@@ -199,21 +199,21 @@ body {
   align-items: flex-end;
 }
 .main .dataArea .datasheet li .area_text .text .time {
-  background: url(./img/icons_clock.png) no-repeat;
+  background: url(../img/icons_clock.png) no-repeat;
 }
 .main .dataArea .datasheet li .area_text .text .address {
-  background: url(./img/icons_pin.png) no-repeat;
+  background: url(../img/icons_pin.png) no-repeat;
 }
 .main .dataArea .datasheet li .area_text .text .Telephone {
-  background: url(./img/icons_phone.png) no-repeat;
+  background: url(../img/icons_phone.png) no-repeat;
 }
 .main .dataArea .datasheet li .area_text .fee p {
   padding-left: 25px;
-  background: url(./img/icons_tag.png) no-repeat;
+  background: url(../img/icons_tag.png) no-repeat;
 }
 
 .top {
-  background: url(./img/btn_goTop.png);
+  background: url(../img/btn_goTop.png);
   width: 24px;
   height: 24px;
   position: absolute;
@@ -238,7 +238,7 @@ body {
   left: 0;
   right: 0;
   bottom: -72px;
-  background: white url(./img/circle-with-a-down-arrow.png) no-repeat center;
+  background: white url(../img/circle-with-a-down-arrow.png) no-repeat center;
 }
 
 .popular_areas::after {
