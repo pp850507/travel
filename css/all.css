@@ -1,0 +1,331 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.popular_btn {
+  width: 130px;
+  height: 42px;
+  padding: 11px 34px 11px 34px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn1 {
+  background-color: #8A82CC;
+}
+
+.btn1:hover {
+  background-color: #626262;
+}
+
+.btn2 {
+  background-color: #FFA782;
+}
+
+.btn2:hover {
+  background-color: #626262;
+}
+
+.btn3 {
+  background-color: #F5D105;
+}
+
+.btn3:hover {
+  background-color: #626262;
+}
+
+.btn4 {
+  background-color: #559AC8;
+}
+
+.btn4:hover {
+  background-color: #626262;
+}
+
+.header {
+  height: 380px;
+  background: url(/img/Hero.png);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header h1 {
+  font-size: 40px;
+  color: #fff;
+  padding: 90px 0px;
+  letter-spacing: 8px;
+}
+
+.header .selectionArea .selectionArea_box {
+  width: 452px;
+  height: 48px;
+  font-size: 18px;
+  border-radius: 3px;
+  border: 3px solid white;
+  background: url(/img/icons_down.png) no-repeat 99% center rgba(255, 255, 255, 0.7);
+}
+
+.main {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.main .popular_areas {
+  margin-top: -30px;
+  background-color: #FFFFFF;
+  width: 800px;
+  height: 112px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0px 3px;
+          box-shadow: 0 0px 3px;
+  position: relative;
+}
+
+.main .popular_areas h3 {
+  padding: 20px 0px 14px 18px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main .popular_areas .popular_button {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main .popular_areas .popular_button .popular_btn a {
+  color: #fff;
+}
+
+.main .dataArea h3 {
+  padding-top: 180px;
+  padding-bottom: 24px;
+  font-size: 36px;
+  color: #8A82CC;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main .dataArea .datasheet {
+  width: 960px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main .dataArea .datasheet li {
+  width: 464px;
+  -webkit-box-shadow: 0 0px 3px;
+          box-shadow: 0 0px 3px;
+  margin-bottom: 36px;
+}
+
+.main .dataArea .datasheet li .area_map {
+  width: 464px;
+  height: 155px;
+  padding: 14px 22px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.main .dataArea .datasheet li .area_map .name {
+  font-size: 24px;
+  color: #fff;
+}
+
+.main .dataArea .datasheet li .area_map .area {
+  font-size: 16px;
+  color: #fff;
+}
+
+.main .dataArea .datasheet li .area_text {
+  padding: 14px 22px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.main .dataArea .datasheet li .area_text .text .time {
+  background: url(/img/icons_clock.png) no-repeat;
+}
+
+.main .dataArea .datasheet li .area_text .text .address {
+  background: url(/img/icons_pin.png) no-repeat;
+}
+
+.main .dataArea .datasheet li .area_text .text .Telephone {
+  background: url(/img/icons_phone.png) no-repeat;
+}
+
+.main .dataArea .datasheet li .area_text .fee p {
+  padding-left: 25px;
+  background: url(/img/icons_tag.png) no-repeat;
+}
+
+.top {
+  background: url(/img/btn_goTop.png);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-indent: 101%;
+  overflow: hidden;
+  position: fixed;
+}
+
+.text p {
+  padding-left: 25px;
+  line-height: 180%;
+}
+
+.popular_areas::before {
+  content: " ";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: -72px;
+  background: white url(/img/circle-with-a-down-arrow.png) no-repeat center;
+}
+
+.popular_areas::after {
+  content: " ";
+  width: 900px;
+  border-bottom: 2px dashed #559AC8;
+  position: absolute;
+  bottom: -60px;
+  right: 0;
+  left: 0;
+  margin-left: -50px;
+  z-index: -1;
+}
+
+.footer {
+  height: 90px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #559AC8;
+  margin-top: 90px;
+}
+
+.footer h3 {
+  font-size: 14px;
+  color: #FFFFFF;
+  padding: 24px 0px 13px 0px;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #FFD366;
+  padding-bottom: 23px;
+}
+/*# sourceMappingURL=all.css.map */

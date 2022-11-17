@@ -1,0 +1,233 @@
+.d-flex{
+    display: flex;
+}
+
+p{
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+body{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.popular_btn{
+    width: 130px;
+    height: 42px;
+    padding: 11px 34px 11px 34px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn1{
+    background-color: #8A82CC;
+    &:hover{
+        background-color: #626262;
+    }
+}
+.btn2{
+    background-color: #FFA782;
+    &:hover{
+        background-color: #626262;
+    }
+}
+.btn3{
+    background-color: #F5D105;
+    &:hover{
+        background-color: #626262;
+    }
+}
+.btn4{
+    background-color: #559AC8;
+    &:hover{
+        background-color: #626262;
+    }
+}
+
+
+
+//頁首
+
+.header{
+    height: 380px;
+    background: url(/img/Hero.png);
+    flex-direction:column;
+    align-items:center;
+    h1{
+        font-size: 40px;
+        color: #fff;
+        padding: 90px 0px;
+        letter-spacing: 8px;
+    }
+    .selectionArea{
+        .selectionArea_box{
+            width: 452px;
+            height: 48px;
+            font-size: 18px;
+            border-radius: 3px;
+            border: 3px solid white;
+            background: url(/img/icons_down.png) no-repeat 99% center rgba(255,255,255,0.70);
+        }
+    }
+}
+
+
+.main{
+    flex-direction:column;
+    align-items:center;
+    position: relative;
+    .popular_areas{
+        margin-top: -30px;
+        background-color: #FFFFFF;
+        width: 800px;
+        height: 112px;
+        border-radius: 5px;
+        box-shadow: 0 0px 3px;
+        position: relative;
+        h3{
+            padding: 20px 0px 14px 18px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .popular_button{
+            justify-content: space-around;
+            .popular_btn{
+                a{
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .dataArea{
+        h3{
+            padding-top: 180px;
+            padding-bottom: 24px;
+            font-size: 36px;
+            color: #8A82CC;
+            text-align: center;
+            font-weight: bold;
+        }
+        .datasheet{
+            width: 960px;
+            flex-direction:row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            li{
+                width: 464px;
+                box-shadow: 0 0px 3px;
+                margin-bottom: 36px;
+                .area_map{
+                    width: 464px;
+                    height: 155px;
+                    padding: 14px 22px;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    .name{
+                        font-size: 24px;
+                        color: #fff;
+                    }
+                    .area{
+                        font-size: 16px;
+                        color: #fff;
+                    }
+                }
+                .area_text{
+                    padding: 14px 22px;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    .text{
+                        .time{
+                            background: url(/img/icons_clock.png) no-repeat;
+                        }
+                        .address{
+                            background: url(/img/icons_pin.png) no-repeat;
+                        }
+                        .Telephone{
+                            background: url(/img/icons_phone.png) no-repeat;
+                        }
+                    }
+                    .fee{
+                        p{
+                            padding-left: 25px;
+                            background: url(/img/icons_tag.png) no-repeat;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.top{
+    background: url(/img/btn_goTop.png);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-indent: 101%;
+    overflow: hidden;
+    position: fixed;
+}
+
+.text p{
+    padding-left: 25px;
+    line-height: 180%;
+}
+
+
+
+
+
+.popular_areas::before{
+    content: " ";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: -72px;
+    background: white url(/img/circle-with-a-down-arrow.png)no-repeat center;;
+}
+.popular_areas::after{
+    content: " ";
+    width: 900px;
+    border-bottom: 2px dashed #559AC8;
+    position: absolute;
+    bottom: -60px;
+    right: 0;
+    left: 0;
+    margin-left: -50px;
+    z-index: -1;
+}
+
+
+
+//頁尾
+
+.footer{
+    height: 90px;
+    flex-direction:column;
+    align-items:center;
+    background-color:#559AC8;
+    margin-top: 90px;
+    h3{
+        font-size: 14px;
+        color: #FFFFFF;
+        padding: 24px 0px 13px 0px;
+    }
+    p{
+        font-size: 14px;
+        color: #FFD366;
+        padding-bottom: 23px;
+    }
+}
